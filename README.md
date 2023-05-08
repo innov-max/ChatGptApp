@@ -1,4 +1,4 @@
-GPT-Enabled Android Application
+# GPT-Enabled Android Application
 
 This Android application uses the GPT API to generate natural language text based on user input. The application is written in Kotlin and can be easily customized and extended to meet your specific needs.
 Requirements
@@ -7,11 +7,13 @@ Requirements
     Android SDK 30 or higher
     GPT API key
 
-Getting Started
+## Getting Started
 
 To use this application, you will need to obtain an API key for the GPT service. You can obtain a key by following the instructions on the GPT API documentation website.
 
-Once you have obtained your API key, you can insert it into the gradle.properties file located in the project's root directory. The file should contain the following line:
+Once you have obtained your API key, you can insert it into the gradle.properties file located in the project's root directory.
+
+The file should contain the following line:
 
 makefile
 
@@ -28,10 +30,10 @@ Customization
 This application is fully customizable and can be extended to meet your specific needs. You can modify the user interface, add new features, and integrate the GPT API with other services or data sources.
 
 To get started with customizing the application, you can explore the code in the src directory. The main logic for the GPT API integration is contained in the MainActivity.kt file.
-License
+## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code as you see fit, as long as you include the original copyright notice and license text.
-Acknowledgements
+## Acknowledgements
 
 This application was built using the following libraries and resources:
 
@@ -40,6 +42,6 @@ This application was built using the following libraries and resources:
     GSON JSON parser
     GPT API by OpenAI
 
-Contributing
+## Contributing
 
 Contributions to this project are welcome and encouraged. If you have any suggestions, bug reports, or feature requests, please submit them via the issue tracker on GitHub.
